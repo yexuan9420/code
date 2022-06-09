@@ -1,1 +1,8 @@
 每天学习4小时，能做到么？
+
+使用git bash提交代码：
+在本地代码库 git bash，执行口令
+git remote add origin git@github.com:yexuan9420/mytest.git  【后面的地址换成自己的仓库地址】 (以ssh地址提交)
+git push -u origin master
+提交时，若出现 remote origin already exists报错，意思是origin 分支已存在
+进行删除口令：$ git remote rm origin，表示删除之前添加的origin分支，再提到代码
