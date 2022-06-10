@@ -7,4 +7,4 @@ git push -u origin master
 提交时，若出现 remote origin already exists报错，意思是origin 分支已存在
 进行删除口令：git remote rm origin，表示删除之前添加的origin分支，再提到代码
 
-abc
+abc123
